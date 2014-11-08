@@ -1,5 +1,5 @@
 #!/bin/bash
-USER="roboto"
+USER="root"
 HOST="192.168.1.115"
 KEY="./"$USER"_key"
 
