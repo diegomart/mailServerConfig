@@ -1,4 +1,4 @@
-mailServer
+mailServer 1.0.0
 ==========
 
 Instalación de postfix, dovecot en CentOS7
