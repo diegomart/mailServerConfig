@@ -27,9 +27,9 @@ useradd -m $USER -s /sbin/nologin
 passwd $USER
 
 #reiniciar servicios
-service postfix start
-service dovecot start
-service saslauthd start
+service postfix restart
+service dovecot restart
+service saslauthd restart
 #indicar que deben de arrancar los servicios al iniciar el SO
 chkconfig --level 235 postfix on
 chkconfig --level 235 dovecot on
